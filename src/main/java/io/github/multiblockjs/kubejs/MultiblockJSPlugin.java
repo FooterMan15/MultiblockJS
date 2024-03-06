@@ -7,7 +7,7 @@ public class MultiblockJSPlugin extends KubeJSPlugin {
 
     @Override
     public void init() {
-        MultiblockJS.LOGGER.info("This is my KubeJS Plugin!");
+        MultiblockJS.LOGGER.info("MultiblockJS Loaded!");
     }
 }
 

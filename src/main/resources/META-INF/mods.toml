@@ -3,7 +3,7 @@ loaderVersion = "[47,)"
 license = "All rights reserved" # https://choosealicense.com/
 
 
-# issueTrackerURL="https://github.com/invalid/pleasechangeme/issues"
+issueTrackerURL="https://github.com/FooterMan15/MultiblockJS/issues"
 
 [[mods]]
 modId = "multiblockjs"
@@ -11,7 +11,7 @@ version = "${version}"
 displayName = "MultiblockJS"
 logoFile="icon.png"
 # credits="Thanks to FooterMan for the KubeJS Addon Template!"
-authors="FooterMan,Bluemethyst"
+authors="FooterMan, Bluemethyst"
 description = '''
 Addon for KubeJS, supports creating Multiblock Machines.
 '''
