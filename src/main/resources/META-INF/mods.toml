@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All rights reserved" # https://choosealicense.com/
+
+
+# issueTrackerURL="https://github.com/invalid/pleasechangeme/issues"
+
+[[mods]]
+modId = "multiblockjs"
+version = "${version}"
+displayName = "MultiblockJS"
+logoFile="icon.png"
+# credits="Thanks to FooterMan for the KubeJS Addon Template!"
+authors="FooterMan,Bluemethyst"
+description = '''
+Addon for KubeJS, supports creating Multiblock Machines.
+'''
+
+[[dependencies.multiblockjs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.multiblockjs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.multiblockjs]]
+modId = "kubejs"
+mandatory = true
+versionRange = "[2001.6.4,)"
+ordering = "NONE"
+side = "BOTH"
