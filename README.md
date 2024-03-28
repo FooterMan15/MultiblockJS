@@ -1,2 +1,2 @@
 ## MultiblockJS
-Addon for KubeJS, supports crating Multiblock Machines.
+Addon for KubeJS, supports creating Multiblock Machines.
